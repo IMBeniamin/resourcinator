@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Background -->
+    <circle cx="50" cy="50" r="50" fill="#000000"/>
+
+    <!-- Row 1 -->
+    <circle cx="25" cy="25" r="12" fill="#3498db"/>
+    <circle cx="50" cy="25" r="12" fill="#e74c3c"/>
+    <circle cx="75" cy="25" r="12" fill="#f1c40f"/>
+
+    <!-- Row 2 -->
+    <circle cx="25" cy="50" r="12" fill="#2ecc71"/>
+    <circle cx="50" cy="50" r="12" fill="#9b59b6"/>
+    <circle cx="75" cy="50" r="12" fill="#e67e22"/>
+
+    <!-- Row 3 -->
+    <circle cx="25" cy="75" r="12" fill="#1abc9c"/>
+    <circle cx="50" cy="75" r="12" fill="#34495e"/>
+    <circle cx="75" cy="75" r="12" fill="#95a5a6"/>
+</svg>
