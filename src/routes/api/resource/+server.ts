@@ -25,6 +25,7 @@ export const GET: RequestHandler = async ({ platform }) => {
 
 	try {
 		const kv: KVNamespace = platform.env.RESOURCES_KV;
+		await kv.put('sveltekit', JSON.stringify(res));
 
 		// List all keys in the KV namespace
 		const { keys } = await kv.list();
