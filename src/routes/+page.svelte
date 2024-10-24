@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Resource from '@/components/Resource.svelte';
-	import type { ResourceType } from '$lib/model/Resource';
+	import type { ResourceDTO } from '$lib/model/Resource';
 
-	let resource: ResourceType = {
+	let resource: ResourceDTO = {
 		title: 'SvelteKit',
 		description: 'SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.',
 		url: 'https://kit.svelte.dev',

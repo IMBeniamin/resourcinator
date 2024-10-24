@@ -1,4 +1,4 @@
-export type ResourceType = {
+export type ResourceDTO = {
 	title: string;
 	description: string;
 	tags: string[];

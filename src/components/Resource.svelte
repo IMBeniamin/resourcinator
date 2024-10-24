@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { ResourceType } from '$lib/model/Resource';
+	import type { ResourceDTO } from '$lib/model/Resource';
 
-	export let resource: ResourceType;
+	export let resource: ResourceDTO;
 </script>
 
 <div class="resource">
