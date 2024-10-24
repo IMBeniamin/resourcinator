@@ -1,13 +1,13 @@
 <script lang="ts">
-	// import Resource from '../components/Resource.svelte';
-	let resources: { name: string }[] = [];
+	import Resource from '@/components/Resource.svelte';
+	import type { ResourceType } from '$lib/model/Resource';
 
-	async function loadResources() {
-		const res = await fetch('/api/resources');
-		resources = await res.json();
+	let resource: ResourceType = {
+		title: 'SvelteKit',
+		description: 'SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.',
+		url: 'https://kit.svelte.dev',
+		tags: ['svelte', 'kit']
 	}
-
-	loadResources();
 </script>
 
 <style>
@@ -20,8 +20,6 @@
 
 <div>
 	<ul>
-		{#each resources as resource}
-			<li>{resource.name}</li>
-		{/each}
+		<Resource resource="{resource}" />
 	</ul>
 </div>

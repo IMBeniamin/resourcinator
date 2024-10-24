@@ -1,9 +1,11 @@
-<script>
-	export let resource;
+<script lang="ts">
+	import type { ResourceType } from '$lib/model/Resource';
+
+	export let resource: ResourceType;
 </script>
 
 <div class="resource">
-	<img src="{resource.icon}" alt="{resource.title} icon" class="icon" />
+<!--	<img src="{resource.icon}" alt="{resource.title} icon" class="icon" />-->
 	<div class="details">
 		<h2>{resource.title}</h2>
 		<p>{resource.description}</p>
@@ -24,11 +26,11 @@
 		align-items: flex-start;
 		margin-bottom: 1em;
 	}
-	.icon {
-		width: 48px;
-		height: 48px;
-		margin-right: 1em;
-	}
+	/*.icon {*/
+	/*	width: 48px;*/
+	/*	height: 48px;*/
+	/*	margin-right: 1em;*/
+	/*}*/
 	.details {
 		flex: 1;
 	}
@@ -37,7 +39,7 @@
 	}
 	.tag {
 		display: inline-block;
-		background-color: #f0f0f0;
+		background-color: #333;
 		padding: 0.2em 0.5em;
 		margin-right: 0.3em;
 		border-radius: 3px;
