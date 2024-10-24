@@ -1,29 +1,46 @@
 <script>
-	export let title = "Default Title";
-	export let icon;
-	export let open = false;
-
-	function handleClick() {
-		open = !open;
-	}
+	export let resource;
 </script>
 
-<div>
-	<!-- Slot allows you to pass HTML content to the component -->
-	<slot></slot>
-
-	<h2>{title}</h2>
-	<h3>isopen: {open}</h3>
-	<button on:click={handleClick}>Click Me</button>
+<div class="resource">
+	<img src="{resource.icon}" alt="{resource.title} icon" class="icon" />
+	<div class="details">
+		<h2>{resource.title}</h2>
+		<p>{resource.description}</p>
+		<a href="{resource.url}" target="_blank" rel="noopener noreferrer">
+			{resource.url}
+		</a>
+		<div class="tags">
+			{#each resource.tags as tag}
+				<span class="tag">{tag}</span>
+			{/each}
+		</div>
+	</div>
 </div>
 
 <style>
-    h2 {
-        color: green;
-    }
-    button {
-        background-color: orange;
-        border: none;
-        padding: 10px;
-    }
+	.resource {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 1em;
+	}
+	.icon {
+		width: 48px;
+		height: 48px;
+		margin-right: 1em;
+	}
+	.details {
+		flex: 1;
+	}
+	.tags {
+		margin-top: 0.5em;
+	}
+	.tag {
+		display: inline-block;
+		background-color: #f0f0f0;
+		padding: 0.2em 0.5em;
+		margin-right: 0.3em;
+		border-radius: 3px;
+		font-size: 0.9em;
+	}
 </style>

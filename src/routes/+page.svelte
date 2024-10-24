@@ -1,5 +1,13 @@
-<script>
-	import Resource from '../components/Resource.svelte';
+<script lang="ts">
+	// import Resource from '../components/Resource.svelte';
+	let resources: { name: string }[] = [];
+
+	async function loadResources() {
+		const res = await fetch('/api/resources');
+		resources = await res.json();
+	}
+
+	loadResources();
 </script>
 
 <style>
@@ -11,6 +19,9 @@
 </style>
 
 <div>
-	<Resource title="Group 1" icon="🔥">
-	</Resource>
+	<ul>
+		{#each resources as resource}
+			<li>{resource.name}</li>
+		{/each}
+	</ul>
 </div>

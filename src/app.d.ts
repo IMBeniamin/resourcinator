@@ -1,5 +1,6 @@
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
+import type { KVNamespace, ExecutionContext } from '@cloudflare/workers-types';
 declare global {
 	namespace App {
 		// interface Error {}
@@ -8,11 +9,9 @@ declare global {
 		// interface PageState {}
 		interface Platform {
 			env: {
-				COUNTER: DurableObjectNamespace;
+				RESOURCES_KV: KVNamespace;
 			};
-			context: {
-				waitUntil(promise: Promise<never>): void;
-			};
+			context: ExecutionContext;
 			caches: CacheStorage & { default: Cache }
 		}
 	}
