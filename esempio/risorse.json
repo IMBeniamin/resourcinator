@@ -1,0 +1,634 @@
+{
+    "resources": [
+    {
+        "title": "mario",
+        "description": "the original good mario game",
+        "url": "https://mariogame.com",
+        "tag": ["mario", "game", "retro", "nintendo"]
+    },
+    {
+        "title": "NexusMod",
+        "description": "website that hosts computer game mods",
+        "url": "https://www.nexusmods.com",
+        "tag": ["mod", "game"]
+    },
+    {
+        "title": "archive.is",
+        "description": "take a permanent snapshot of a web page that will exist forever even if the original page is gone.",
+        "url": "https://archive.is",
+        "tag": ["snapshot", "archive", "webpage"]
+      },
+      {
+        "title": "autodraw.com",
+        "description": "create freehand doodles and watch them magically transform into beautiful drawings powered by machine learning.",
+        "url": "https://autodraw.com",
+        "tag": ["doodle", "drawing", "machine learning"]
+      },
+      {
+        "title": "fast.com",
+        "description": "check the current speed of your Internet connection.",
+        "url": "https://fast.com",
+        "tag": ["internet", "speed", "connection"]
+      },
+      {
+        "title": "slides.com",
+        "description": "create pixel-perfect slide decks and broadcast your presentations to an audience of any size from anywhere.",
+        "url": "https://slides.com",
+        "tag": ["slides", "presentation", "broadcast"]
+      },
+      {
+        "title": "screenshot.guru",
+        "description": "take high-resolution screenshots of web pages on mobile and desktops.",
+        "url": "https://screenshot.guru",
+        "tag": ["screenshot", "webpage", "mobile", "desktop"]
+      },
+      {
+        "title": "dictation.io",
+        "description": "accurate and quick voice recognition in your browser using Google Speech API.",
+        "url": "https://dictation.io",
+        "tag": ["voice recognition", "speech", "browser"]
+      },
+      {
+        "title": "reverse.photos",
+        "description": "upload an image and find similar pictures on the web.",
+        "url": "https://reverse.photos",
+        "tag": ["image", "reverse search", "pictures"]
+      },
+      {
+        "title": "copychar.cc",
+        "description": "copy special characters and emojis that arent on your keyboard.",
+        "url": "https://copychar.cc",
+        "tag": ["characters", "emojis", "keyboard"]
+      },
+      {
+        "title": "codeacademy.com",
+        "description": "the best place to learn coding online.",
+        "url": "https://codeacademy.com",
+        "tag": ["coding", "learning", "online"]
+      },
+      {
+        "title": "noisli.com",
+        "description": "ambient noises to help you improve focus and boost productivity.",
+        "url": "https://noisli.com",
+        "tag": ["ambient", "noise", "productivity"]
+      },
+      {
+        "title": "iconfinder.com",
+        "description": "millions of icons for all kinds of projects.",
+        "url": "https://iconfinder.com",
+        "tag": ["icons", "projects"]
+      },
+      {
+        "title": "jotti.org",
+        "description": "scan any suspicious file or email attachment for viruses.",
+        "url": "https://jotti.org",
+        "tag": ["virus scan", "email", "file"]
+      },
+      {
+        "title": "wolframalpha.com",
+        "description": "gets answers directly without searching.",
+        "url": "https://wolframalpha.com",
+        "tag": ["answers", "search", "direct"]
+      },
+      {
+        "title": "earth.google.com",
+        "description": "explore beautiful cities, landmarks and orbit the world in 3D from the comfort of your browser.",
+        "url": "https://earth.google.com",
+        "tag": ["explore", "3D", "cities", "landmarks"]
+      },
+      {
+        "title": "unsplash.com",
+        "description": "the best place to download images absolutely free.",
+        "url": "https://unsplash.com",
+        "tag": ["images", "download", "free"]
+      },
+      {
+        "title": "videos.pexels.com",
+        "description": "an online library of free HD videos you can use everywhere.",
+        "url": "https://videos.pexels.com",
+        "tag": ["videos", "free", "HD"]
+      },
+      {
+        "title": "invideo.io",
+        "description": "make impressive videos and branded stories for Instagram, Facebook, and YouTube.",
+        "url": "https://invideo.io",
+        "tag": ["videos", "branded", "social media"]
+      },
+      {
+        "title": "semrush.com",
+        "description": "Analyze your competitor’s website and discover who is sending them traffic.",
+        "url": "https://semrush.com",
+        "tag": ["analysis", "competitor", "traffic"]
+      },
+      {
+        "title": "zohosign.com",
+        "description": "Sign documents online with legally binding e-signatures.",
+        "url": "https://zohosign.com",
+        "tag": ["e-signature", "documents", "online"]
+      },
+      {
+        "title": "everytimezone.com",
+        "description": "a less confusing view of the world time zones.",
+        "url": "https://everytimezone.com",
+        "tag": ["time zones", "world", "view"]
+      },
+      {
+        "title": "e.ggtimer.com",
+        "description": "a simple online timer for your daily needs.",
+        "url": "https://e.ggtimer.com",
+        "tag": ["timer", "online", "daily"]
+      },
+      {
+        "title": "random.org",
+        "description": "pick random numbers, flip coins, and more.",
+        "url": "https://random.org",
+        "tag": ["random", "numbers", "coins"]
+      },
+      {
+        "title": "remove.bg",
+        "description": "remove the background from any photograph without firing up Photoshop.",
+        "url": "https://remove.bg",
+        "tag": ["background", "photo", "remove"]
+      },
+      {
+        "title": "myfonts.com/WhatTheFont",
+        "description": "upload an image of any text and quickly determine the font family.",
+        "url": "https://myfonts.com/WhatTheFont",
+        "tag": ["font", "image", "text"]
+      },
+      {
+        "title": "fonts.google.com",
+        "description": "the best collection of open source fonts that you can use anywhere without restrictions.",
+        "url": "https://fonts.google.com",
+        "tag": ["fonts", "open source", "collection"]
+      },
+      {
+        "title": "fontstruct.com",
+        "description": "draw and build your own fonts and use them in any application.",
+        "url": "https://fontstruct.com",
+        "tag": ["fonts", "draw", "build"]
+      },
+      {
+        "title": "calligraphr.com",
+        "description": "transform your handwriting into a real font.",
+        "url": "https://calligraphr.com",
+        "tag": ["handwriting", "font", "transform"]
+      },
+      {
+        "title": "regex.info",
+        "description": "find data hidden in your photographs.",
+        "url": "https://regex.info",
+        "tag": ["photographs", "data", "hidden"]
+      },
+      {
+        "title": "youtube.com/webcam",
+        "description": "broadcast yourself live over the Internet without any complicated setup.",
+        "url": "https://youtube.com/webcam",
+        "tag": ["live", "broadcast", "setup"]
+      },
+      {
+        "title": "camelcamelcamel.com",
+        "description": "Create Amazon price watches and get email alerts when the prices drop.",
+        "url": "https://camelcamelcamel.com",
+        "tag": ["price", "amazon", "alerts"]
+      },
+      {
+        "title": "homestyler.com",
+        "description": "design from scratch or re-model your home in 3D.",
+        "url": "https://homestyler.com",
+        "tag": ["design", "home", "3D"]
+      },
+      {
+        "title": "pdfescape.com",
+        "description": "quickly edit PDF in the browser without Acrobat.",
+        "url": "https://pdfescape.com",
+        "tag": ["PDF", "edit", "browser"]
+      },
+      {
+        "title": "draw.io",
+        "description": "create diagrams, wireframe and flowcharts in the browser.",
+        "url": "https://draw.io",
+        "tag": ["diagrams", "wireframe", "flowcharts"]
+      },
+      {
+        "title": "web.skype.com",
+        "description": "make voice and video calls in your browser with Skype.",
+        "url": "https://web.skype.com",
+        "tag": ["voice", "video", "calls"]
+      },
+      {
+        "title": "onlineocr.net",
+        "description": "recognize text from scanned PDFs.",
+        "url": "https://onlineocr.net",
+        "tag": ["OCR", "text", "PDF"]
+      },
+      {
+        "title": "wetransfer.com",
+        "description": "for sharing really big files online.",
+        "url": "https://wetransfer.com",
+        "tag": ["file sharing", "big files", "online"]
+      },
+      {
+        "title": "file.pizza",
+        "description": "peer-to-peer file transfer over WebRTC without any middleman.",
+        "url": "https://file.pizza",
+        "tag": ["file transfer", "peer-to-peer", "WebRTC"]
+      },
+      {
+        "title": "snapdrop.com",
+        "description": "like Apple AirDrop but for the web. Share files directly between devices in the same network.",
+        "url": "https://snapdrop.com",
+        "tag": ["file sharing", "network", "devices"]
+      },
+      {
+        "title": "hundredzeros.com",
+        "description": "the site lets you download free Kindle books.",
+        "url": "https://hundredzeros.com",
+        "tag": ["books", "free", "Kindle"]
+      },
+      {
+        "title": "app.grammarly.com",
+        "description": "check your writing for spelling, style, and grammatical errors.",
+        "url": "https://app.grammarly.com",
+        "tag": ["writing", "grammar", "spelling"]
+      },
+      {
+        "title": "noteflight.com",
+        "description": "print music sheets, write your own music online.",
+        "url": "https://noteflight.com",
+        "tag": ["music", "sheets", "online"]
+      },
+      {
+        "title": "translate.google.com",
+        "description": "translate web pages, PDFs and Office documents.",
+        "url": "https://translate.google.com",
+        "tag": ["translation", "web pages", "documents"]
+      },
+      {
+        "title": "kleki.com",
+        "description": "create paintings and sketches with a wide variety of brushes.",
+        "url": "https://kleki.com",
+        "tag": ["painting", "sketches", "brushes"]
+      },
+      {
+        "title": "similarsites.com",
+        "description": "discover new sites that are similar to what you like already.",
+        "url": "https://similarsites.com",
+        "tag": ["sites", "discovery", "similar"]
+      },
+      {
+        "title": "bubbl.us",
+        "description": "create mind-maps, brainstorm ideas in the browser.",
+        "url": "https://bubbl.us",
+        "tag": ["mind-maps", "brainstorm", "ideas"]
+      },
+      {
+        "title": "color.adobe.com",
+        "description": "get color ideas, also extract colors from photographs.",
+        "url": "https://color.adobe.com",
+        "tag": ["color", "ideas", "photographs"]
+      },
+      {
+        "title": "canva.com",
+        "description": "make beautiful graphics, presentations, resumes and more with readymade template designs.",
+        "url": "https://canva.com",
+        "tag": ["graphics", "presentations", "templates"]
+      },
+      {
+        "title": "lmgtfy.com",
+        "description": "when your friends are too lazy to use Google on their own.",
+        "url": "https://lmgtfy.com",
+        "tag": ["fun", "google", "search"]
+      },
+      {
+        "title": "midomi.com",
+        "description": "when you need to find the name of a song.",
+        "url": "https://midomi.com",
+        "tag": ["song", "search", "music"]
+      },
+      {
+        "title": "history.google.com",
+        "description": "see all your past Google searches, also among the most important Google URLs.",
+        "url": "https://history.google.com",
+        "tag": ["google", "search", "history"]
+      },
+      {
+        "title": "faxzero.com",
+        "description": "send an online fax for free.",
+        "url": "https://faxzero.com",
+        "tag": ["fax", "online", "free"]
+      },
+      {
+        "title": "tinychat.com",
+        "description": "set up your own private chat room in micro-seconds.",
+        "url": "https://tinychat.com",
+        "tag": ["chat", "private", "room"]
+      },
+      {
+        "title": "privnote.com",
+        "description": "create text notes that will self-destruct after being read.",
+        "url": "https://privnote.com",
+        "tag": ["notes", "self-destruct", "privacy"]
+      },
+      {
+        "title": "domains.google.com",
+        "description": "quickly search domain names for your next big idea!",
+        "url": "https://domains.google.com",
+        "tag": ["domain", "search", "ideas"]
+      },
+      {
+        "title": "squoosh.app",
+        "description": "compress images on the fly. Site works offline as well.",
+        "url": "https://squoosh.app",
+        "tag": ["image", "compression", "offline"]
+      },
+      {
+        "title": "downforeveryoneorjustme.com",
+        "description": "find out if your favorite website is offline or not.",
+        "url": "https://downforeveryoneorjustme.com",
+        "tag": ["website", "offline", "status"]
+      },
+      {
+        "title": "gtmetrix.com",
+        "description": "the perfect tool for measuring your site performance and web vitals.",
+        "url": "https://gtmetrix.com",
+        "tag": ["site performance", "web vitals", "measure"]
+      },
+      {
+        "title": "builtwith.com",
+        "description": "find the web hosting company, email provider and everything else about a website.",
+        "url": "https://builtwith.com",
+        "tag": ["website", "hosting", "email provider"]
+      },
+      {
+        "title": "urbandictionary.com",
+        "description": "find definitions of slang and informal words.",
+        "url": "https://urbandictionary.com",
+        "tag": ["slang", "informal", "definitions"]
+      },
+      {
+        "title": "seatguru.com",
+        "description": "consult this site before choosing a seat for your next flight.",
+        "url": "https://seatguru.com",
+        "tag": ["flights", "seats", "consultation"]
+      },
+      {
+        "title": "stackblitz.com",
+        "description": "a playground for building web projects in HTML, CSS and JavaScript.",
+        "url": "https://stackblitz.com",
+        "tag": ["web projects", "HTML", "CSS", "JavaScript"]
+      },
+      {
+        "title": "flightstats.com",
+        "description": "Track flight status at airports worldwide.",
+        "url": "https://flightstats.com",
+        "tag": ["flights", "tracking", "status"]
+      },
+      {
+        "title": "mymaps.google.com",
+        "description": "create custom Google Maps with scribbles, pins and custom shapes.",
+        "url": "https://mymaps.google.com",
+        "tag": ["maps", "custom", "Google"]
+      },
+      {
+        "title": "snopes.com",
+        "description": "find if that email offer you received is real or just another scam.",
+        "url": "https://snopes.com",
+        "tag": ["scam", "verification", "email"]
+      },
+      {
+        "title": "typingweb.com",
+        "description": "master touch-typing and improve your typing speed.",
+        "url": "https://typingweb.com",
+        "tag": ["typing", "speed", "touch-typing"]
+      },
+      {
+        "title": "todo.microsoft.com",
+        "description": "a beautiful todo app and task manager.",
+        "url": "https://todo.microsoft.com",
+        "tag": ["todo", "task manager", "app"]
+      },
+      {
+        "title": "minutes.io",
+        "description": "quickly capture effective notes during meetings.",
+        "url": "https://minutes.io",
+        "tag": ["meetings", "notes", "effective"]
+      },
+      {
+        "title": "talltweets.com",
+        "description": "Turn Google Slides into animated GIF presentations and videos.",
+        "url": "https://talltweets.com",
+        "tag": ["Google Slides", "GIF", "presentations"]
+      },
+      {
+        "title": "ifttt.com",
+        "description": "create a connection between all your online accounts.",
+        "url": "https://ifttt.com",
+        "tag": ["automation", "online accounts", "connection"]
+      },
+      {
+        "title": "namechk.com",
+        "description": "search for your desired username across hundreds of social networks and domain names.",
+        "url": "https://namechk.com",
+        "tag": ["username", "social networks", "domain names"]
+      },
+      {
+        "title": "gist.github.com",
+        "description": "create anonymous and secret text notes and much more.",
+        "url": "https://gist.github.com",
+        "tag": ["notes", "anonymous", "secret"]
+      },
+      {
+        "title": "mathsolver.microsoft.com",
+        "description": "solve algebra, calculus, trigonometry and other Maths problems with detailed step-by-step explanations.",
+        "url": "https://mathsolver.microsoft.com",
+        "tag": ["math", "solver", "algebra", "calculus", "trigonometry"]
+      },
+      {
+        "title": "powtoon.com",
+        "description": "create engaging whiteboard videos and presentations with your own voiceovers.",
+        "url": "https://powtoon.com",
+        "tag": ["videos", "whiteboard", "presentations"]
+      },
+      {
+        "title": "beautifier",
+        "description": "Prettify your source code and make the code readable. Supports JavaScript, JSON, PHP, HTML and more.",
+        "url": "https://beautifier.io",
+        "tag": ["code", "format", "prettify"]
+      },
+      {
+        "title": "carrd.co",
+        "description": "build one-page fully responsive websites that look good on every screen.",
+        "url": "https://carrd.co",
+        "tag": ["websites", "responsive", "one-page"]
+      },
+      {
+        "title": "spark.adobe.com",
+        "description": "make stunning video presentations with voice narration and wow everyone.",
+        "url": "https://spark.adobe.com",
+        "tag": ["video presentations", "narration", "design"]
+      },
+      {
+        "title": "anchor.fm",
+        "description": "the easiest way to record a podcast that you can distribute on iTunes without having to pay for hosting.",
+        "url": "https://anchor.fm",
+        "tag": ["podcast", "recording", "hosting"]
+      },
+      {
+        "title": "duolingo.com",
+        "description": "learn to speak Chinese, French, Spanish or any other language of your choice.",
+        "url": "https://duolingo.com",
+        "tag": ["language learning", "Chinese", "French", "Spanish"]
+      },
+      {
+        "title": "buffer.com",
+        "description": "the easy way to post and schedule updates on Twitter, Instagram, LinkedIn, Google+ and Facebook.",
+        "url": "https://buffer.com",
+        "tag": ["social media", "schedule", "posts"]
+      },
+      {
+        "title": "10minutemail.com",
+        "description": "create disposable email addresses for putting inside sign-up forms.",
+        "url": "https://10minutemail.com",
+        "tag": ["email", "disposable", "temporary"]
+      },
+      {
+        "title": "pixton.com",
+        "description": "create your own comic strips with your own characters and move them into any pose.",
+        "url": "https://pixton.com",
+        "tag": ["comics", "characters", "design"]
+      },
+      {
+        "title": "twitterbots",
+        "description": "create your own Twitter bots that can auto-reply, DM, follow people and more.",
+        "url": "https://twitterbots.com",
+        "tag": ["twitter", "bots", "automation"]
+      },
+      {
+        "title": "headspace.com",
+        "description": "learn the art of meditation and reduce stress, focus more and even sleep better.",
+        "url": "https://headspace.com",
+        "tag": ["meditation", "stress relief", "focus"]
+      },
+      {
+        "title": "forms.studio",
+        "description": "receive files from anyone in your Google Drive with File Upload Forms.",
+        "url": "https://forms.studio",
+        "tag": ["file upload", "Google Drive", "forms"]
+      },
+      {
+        "title": "class-central.com",
+        "description": "a directory of free online courses offered by universities worldwide.",
+        "url": "https://class-central.com",
+        "tag": ["online courses", "education", "university"]
+      },
+      {
+        "title": "googleartproject.com",
+        "description": "discover museums, famous paintings and art treasure from all around the world.",
+        "url": "https://googleartproject.com",
+        "tag": ["art", "museums", "paintings"]
+      },
+      {
+        "title": "instructables.com",
+        "description": "step-by-step guides on how to build anything and everything.",
+        "url": "https://instructables.com",
+        "tag": ["DIY", "guides", "tutorials"]
+      },
+      {
+        "title": "flowgram.com",
+        "description": "make data-driven graphics, charts and infographics.",
+        "url": "https://flowgram.com",
+        "tag": ["data", "graphics", "charts"]
+      },
+      {
+        "title": "figma.com",
+        "description": "create interactive wireframes and product mockups.",
+        "url": "https://figma.com",
+        "tag": ["design", "wireframes", "mockups"]
+      },
+      {
+        "title": "photos.icons8.com",
+        "description": "make your own stock photographs in high-resolution with custom backgrounds, models and facial expressions.",
+        "url": "https://photos.icons8.com",
+        "tag": ["photography", "stock photos", "custom"]
+      },
+      {
+        "title": "gohighbrow.com",
+        "description": "Take bite-sized courses on a variety of topics, chapters are delivered by email every morning.",
+        "url": "https://gohighbrow.com",
+        "tag": ["courses", "email", "learning"]
+      },
+      {
+        "title": "appinventor.mit.edu",
+        "description": "build your own apps for Android and iOS by dragging blocks instead of writing code.",
+        "url": "https://appinventor.mit.edu",
+        "tag": ["app development", "Android", "iOS"]
+      },
+      {
+        "title": "htmlmail.pro",
+        "description": "send rich-text emails with Gmail mail merge.",
+        "url": "https://htmlmail.pro",
+        "tag": ["email", "rich-text", "mail merge"]
+      },
+      {
+        "title": "wirecutter.com",
+        "description": "whether you need a vacuum cleaner or an SD card, this is the best product recommendation website on the Internet.",
+        "url": "https://wirecutter.com",
+        "tag": ["product recommendations", "reviews", "shopping"]
+      },
+      {
+        "title": "mockaroo.com",
+        "description": "download mock data to fill the rows in your Excel spreadsheet.",
+        "url": "https://mockaroo.com",
+        "tag": ["mock data", "Excel", "spreadsheet"]
+      },
+      {
+        "title": "witeboard.com",
+        "description": "A digital whiteboard for teams to collaborate during online meetings and classes.",
+        "url": "https://witeboard.com",
+        "tag": ["whiteboard", "collaboration", "meetings"]
+      },
+      {
+        "title": "duckduckgo.com",
+        "description": "a clean alternative to Google search that doesn’t track you on the Internet.",
+        "url": "https://duckduckgo.com",
+        "tag": ["search engine", "privacy", "tracking"]
+      },
+      {
+        "title": "whereami",
+        "description": "find the postal address of your current location on Google maps.",
+        "url": "https://whereami.com",
+        "tag": ["location", "postal address", "Google maps"]
+      },
+      {
+        "title": "zerodollarmovies.com",
+        "description": "a huge collection of free movies curated from YouTube.",
+        "url": "https://zerodollarmovies.com",
+        "tag": ["movies", "free", "YouTube"]
+      },
+      {
+        "title": "bard.google.com",
+        "description": "Google’s answer to OpenAI ChatGPT for creative AI-based answers.",
+        "url": "https://bard.google.com",
+        "tag": ["AI", "Google", "creative"]
+      },
+      {
+        "title": "upwork.com",
+        "description": "find freelancers and subject experts to work on any kind of project.",
+        "url": "https://upwork.com",
+        "tag": ["freelancers", "experts", "projects"]
+      },
+      {
+        "title": "razorpay.com",
+        "description": "easily request payments from customers anywhere in the world.",
+        "url": "https://razorpay.com",
+        "tag": ["payments", "customers", "worldwide"]
+      },
+      {
+        "title": "udemy.com",
+        "description": "learn anything from music to Microsoft Excel to accounting with online video courses.",
+        "url": "https://udemy.com",
+        "tag": ["courses", "online", "learning"]
+      }
+    ]
+    }
