@@ -26,7 +26,7 @@
 			<DarkMode />
 		</NavUl>
 	</Navbar>
-	<div class="container mx-auto flex flex-row">
+	<div class="container mx-auto flex flex-row flex-wrap">
 		{#each resources_blocks as resources_block}
 			<Collection children={resources_block} />
 		{/each}
