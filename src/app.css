@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.background-tint {
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: multiply;
+    filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg);
+}

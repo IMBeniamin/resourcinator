@@ -1,48 +1,32 @@
 <script lang="ts">
 	import type { ResourceDTO } from '$lib/model/Resource';
-
 	export let resource: ResourceDTO;
+	export let viewMode: 'icon' | 'detailed' = 'detailed';
 </script>
+<style>
 
-<div class="resource">
-<!--	<img src="{resource.icon}" alt="{resource.title} icon" class="icon" />-->
-	<div class="details">
-		<h2>{resource.title}</h2>
-		<p>{resource.description}</p>
-		<a href="{resource.url}" target="_blank" rel="noopener noreferrer">
-			{resource.url}
-		</a>
-		<div class="tags">
-			{#each resource.tags as tag}
-				<span class="tag">{tag}</span>
-			{/each}
+</style>
+<!--src="https://s2.googleusercontent.com/s2/favicons?domain_url={resource.url}"-->
+{#if viewMode === 'detailed'}
+	<div class="{$$restProps.class} resource p-4 rounded-lg shadow-md hover:shadow-lg transition duration-300 bg-gray-100 dark:bg-gray-800">
+		<div class="details">
+			<h2 class="text-xl font-semibold text-gray-800 dark:text-gray-100">{resource.title}</h2>
+			<p class="text-sm text-gray-600 dark:text-gray-300">{resource.description}</p>
+			<a href="{resource.url}" target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-300 underline">
+				{resource.url}
+			</a>
+			<div class="tags flex flex-wrap gap-2 mt-2">
+				{#each resource.tags as tag}
+					<span class="tag text-xs bg-blue-100 dark:bg-blue-700 text-blue-600 dark:text-white px-2 py-1 rounded-full">{tag}</span>
+				{/each}
+			</div>
 		</div>
 	</div>
-</div>
-
-<style>
-	.resource {
-		display: flex;
-		align-items: flex-start;
-		margin-bottom: 1em;
-	}
-	/*.icon {*/
-	/*	width: 48px;*/
-	/*	height: 48px;*/
-	/*	margin-right: 1em;*/
-	/*}*/
-	.details {
-		flex: 1;
-	}
-	.tags {
-		margin-top: 0.5em;
-	}
-	.tag {
-		display: inline-block;
-		background-color: #333;
-		padding: 0.2em 0.5em;
-		margin-right: 0.3em;
-		border-radius: 3px;
-		font-size: 0.9em;
-	}
-</style>
+{:else}
+	<div class="{$$restProps.class} flex justify-center items-center rounded-[1.7rem] background-tint">
+		<img
+			src="https://cdn.brandfetch.io/{resource.url.replace(/(^\w+:|^)\/\//, '')}/logo"
+			alt="{resource.title} icon"
+			class="rounded-md object-cover" />
+	</div>
+{/if}
